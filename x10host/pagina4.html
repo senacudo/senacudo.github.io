@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedades Individuais de Margens</title>
+    <!-- Incluindo o CSS do Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        div {
+            border: 2px solid black;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-right: 150px;
+            margin-left: 80px;
+            background-color: lightskyblue;
+            padding: 15px 25px 20px 10px;
+        }
+        img {
+            max-width: 100%; /* Ajusta a imagem para responsividade */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+    </style>
+</head>
+<body>
+    <!-- Container Fluid do Bootstrap -->
+    <div class="container-fluid">
+        <h2>Usando propriedades individuais de margens</h2>
+        <div>Este elemento div tem uma margem de cima de 100px,
+            direita de 150px, de baixo igual a 100px e da esquerda de 80px.
+        </div>
+        <br>
+        <p style="text-align: center;">
+            <img src="MENGO.png" alt="MENGO" width="175" height="175">
+        </p>
+    </div>
+
+    <!-- Incluindo os scripts do Bootstrap e jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
