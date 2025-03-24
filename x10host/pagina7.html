@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formatações</title>
+    <meta charset="utf-8">
+    <!-- Incluindo o CSS do Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            background-color: #f8f9fa; /* Adicionando uma cor de fundo para melhor visualização */
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none; /* Remove os marcadores padrão da lista */
+        }
+        li {
+            display: inline-block; /* Permite que os itens da lista fiquem na mesma linha */
+            margin: 5px; /* Espaçamento entre os itens da lista */
+        }
+        li a {
+            text-decoration: none;
+            background-color: #09c;
+            padding: 5px 25px;
+            color: #fff;
+            border-radius: 5px; /* Adiciona bordas arredondadas aos links */
+            display: block; /* Faz com que o link ocupe toda a área do bloco */
+            transition: background-color 0.3s ease; /* Adiciona uma transição suave para a mudança de cor */
+        }
+        li a:hover {
+            background-color: #6cf; /* Corrigido o seletor de hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <ul>
+            <li><a href="brasil.jpg">Brasil</a></li>
+            <li><a href="argentina.jpg">Argentina</a></li>
+            <li><a href="paraguai.jpg">Paraguai</a></li>
+            <li><a href="uruguai.jpg">Uruguai</a></li>
+            <li><a href="bolivia.jpg">Bolívia</a></li>
+        </ul>
+    </div>
+
+    <!-- Incluindo os scripts do Bootstrap e jQuery (opcional para funcionalidades adicionais) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
